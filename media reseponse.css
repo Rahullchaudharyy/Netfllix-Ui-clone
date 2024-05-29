@@ -1,0 +1,49 @@
+@media  screen and (max-width: 1440px) {
+
+.main{
+    width: 1440px;
+    
+}
+
+
+    
+}
+@media  screen and (max-width: 1440px) {
+
+    body{
+        width: 1440px;
+        
+    }
+        
+    }
+    @media  screen and (max-width: 1440px) {
+
+        nav{
+            justify-content: space-between;
+            
+        }
+            
+        }
+
+        @media screen and (max-width:1024px) {
+
+            .main{
+                height: 100vh;
+
+            }
+            .main .box{
+                height: 100vh;
+            }
+        }
+        @media  screen and (max-width:1588px) {
+  
+            .hhh .secondtext {
+                flex-wrap: wrap;
+            }
+        }
+        @media screen and (max-width:1440px) {
+            .secondpage{
+                height: 80vh;
+            }
+            
+        }

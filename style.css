@@ -1,0 +1,322 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    
+
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    height: 3400px;
+}
+
+.navbutton {
+    border: solid white 1px;
+    background-color: transparent;
+    font-weight: 400;
+    color: white;
+    /* padding: 2.6px; */
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+
+}
+
+.navbutton1 {
+    background-color: red;
+    border: solid rgb(255, 0, 0) 1px;
+    font-family: 'Martel Sans', sans-serif;
+    color: white;
+
+}
+
+.navbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+
+}
+
+.main input {
+    background-color: rgba(0, 0, 0, 0.442);
+    border: solid white 0.1px;
+    font-family: 'Martel Sans', sans-serif;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 13px;
+    font-weight: bolder;
+}
+
+.startbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.navbutton12 {
+    background-color: red;
+    border: solid rgb(255, 0, 0) 1px;
+    font-family: 'Martel Sans', sans-serif;
+    color: white;
+    font-size: 29px;
+    border-radius: 4px;
+    padding: 6px;
+    font-weight: bolder;
+}
+
+.main {
+    background: url(Assets/Images/bg.jpg) center/cover no-repeat;
+    background-position: center center;
+    /* background-size: cover; */
+    background-size: auto;
+    /* background-repeat: no-repeat; */
+    height: 80vh;
+    position: relative;
+    overflow: hidden;
+    
+        
+    
+
+}
+
+.main .box {
+    position: absolute;
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.64;
+    top: 0%;
+
+
+}
+
+
+nav {
+    display: flex;
+    max-width: 80vw;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    height: 65px;
+}
+
+nav img {
+    color: rgb(8, 3, 3);
+    width: 125px;
+    position: relative;
+    z-index: 100;
+
+
+}
+
+nav button {
+    position: relative;
+    z-index: 100;
+
+}
+
+.textt {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 100%;
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    gap: 25px;
+    padding: 23px;
+}
+
+.textt> :nth-child(1) {
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.textt>:nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.textt> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.boxbar {
+    height: 8px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.274);
+
+}
+
+.hhh {
+    position: absolute;
+    left: 12%;
+    top: 109%;
+    color: white;
+    display: flex;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.secondtext {
+    display: flex;
+    color: white;
+    position: absolute;
+    left: 12%;
+    top: 120%;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Martel Sans', sans-serif;
+
+
+}
+
+.tv {
+    position: absolute;
+    right: 10%;
+    top: 90%;
+
+}
+
+.vdooftv {
+    position: absolute;
+    right: 15%;
+    top: 100%;
+}
+
+.boxbar2 {
+    height: 8px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.274);
+    position: absolute;
+    top: 155%;
+}
+
+.texto {
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 180%;
+    color: white;
+    display: flex;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.justtext {
+    color: white;
+    position: absolute;
+    left: 1%;
+    top: 120%;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.mobilepic {
+    position: absolute;
+    right: 100%;
+    bottom: 1%;
+    top: -66%;
+}
+
+.download {
+    position: absolute;
+    right: 115%;
+    bottom: 1%;
+    top: 170%;
+    height: 70%;
+    width: 70%;
+    border: solid rgba(255, 255, 255, 0.171);
+    border-radius: 10px;
+    padding-bottom: 2%;
+    background-color: black;
+}
+
+.boxbar3 {
+    height: 8px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.274);
+    position: absolute;
+    top: 240%;
+}
+
+.thirdone {
+    color: white;
+    color: white;
+    position: absolute;
+    right: 60%;
+    top: 265%;
+    color: white;
+    display: flex;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.vdofj {
+    position: absolute;
+    right: -155%;
+    top: -70%;
+    width: 400px;
+
+}
+
+.tv2 {
+    position: absolute;
+    right: -180%;
+    top: -110%;
+}
+
+.boxbar4 {
+    height: 8px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.274);
+    position: absolute;
+    bottom: -220%;
+}
+
+.kidimg {
+    position: absolute;
+    bottom: -290%;
+}
+
+.thirdone2 {
+    color: white;
+    color: white;
+    position: absolute;
+    right: 10%;
+    top: 345%;
+    color: white;
+    display: flex;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Martel Sans', sans-serif;
+
+}
+
+.justtext2 {
+    color: white;
+    position: absolute;
+    left: 52.2%;
+    bottom: -265%;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Martel Sans', sans-serif;
+}
+
